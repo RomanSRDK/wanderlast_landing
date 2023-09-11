@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 24px;
+
+  a {
+    color: #181818;
+    font-family: "Circular-Std-Book", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+  }
+
+  a.active {
+    color: #35aff4;
+  }
+
+  a:hover,
+  a:focus {
+    color: #35aff4;
+  }
+}
+
+// .nav__list li:not(:last-child) {
+//   margin-right: 24px;
+// }
+
+.nav__btns {
+  display: flex;
+  gap: 12px;
+}
