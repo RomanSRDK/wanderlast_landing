@@ -1,0 +1,21 @@
+.hint-discover {
+  display: flex;
+  padding: 12px;
+  gap: 16px;
+}
+.hint-discover__picture {
+  border-radius: 8px;
+  overflow: hidden;
+  //   чтобы картинка не сжималась, если справа много контента
+  flex-shrink: 0;
+}
+.hint-discover__img {
+}
+.hint-discover-desc {
+}
+.hint-discover__title {
+}
+.hint-discover__rating {
+}
+.hint-discover__price {
+}

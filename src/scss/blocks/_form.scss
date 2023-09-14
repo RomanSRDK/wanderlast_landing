@@ -6,6 +6,8 @@
   width: 560px;
   padding: 12px 16px;
   gap: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(144, 144, 144, 0.3);
 }
 .form__devider {
   width: 1px;
@@ -16,6 +18,7 @@
   padding-left: 36px;
   display: grid;
   gap: 8px;
+
   span {
     color: var(--text-color);
     font-family: "Circular-Std-Medium", sans-serif;
@@ -26,20 +29,20 @@
   }
 
   background-image: url(./../../img/icons/map.svg);
-  background-position: 0 0;
+  background-position: 0 -2px;
   background-size: auto;
   background-repeat: no-repeat;
 }
-.form__input {
-  font-family: "Circular-Std-Book", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: normal;
+// .form__input {
+//   font-family: "Circular-Std-Book", sans-serif;
+//   font-size: 14px;
+//   font-style: normal;
+//   font-weight: 450;
+//   line-height: normal;
 
-  &::placeholder {
-    color: var(--text-muted);
-  }
-}
+//   &::placeholder {
+//     color: var(--text-muted);
+//   }
+// }
 .form__btn {
 }
