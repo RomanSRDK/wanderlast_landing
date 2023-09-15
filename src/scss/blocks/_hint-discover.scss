@@ -2,20 +2,74 @@
   display: flex;
   padding: 12px;
   gap: 16px;
+  max-width: 324px;
+
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
 }
+
 .hint-discover__picture {
   border-radius: 8px;
   overflow: hidden;
   //   чтобы картинка не сжималась, если справа много контента
   flex-shrink: 0;
 }
-.hint-discover__img {
-}
+
 .hint-discover-desc {
+  flex-grow: 1;
 }
+
 .hint-discover__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--text-color);
+  font-family: "Circular-Std-Medium", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
 }
+
 .hint-discover__rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: #181818;
+  font-family: "Circular-Std-Medium", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+
+  &::before {
+    content: "";
+    width: 16px;
+    height: 18px;
+
+    background-image: url(./../../img/icons/star-small.svg);
+    background-repeat: no-repeat;
+  }
 }
+
 .hint-discover__price {
+  color: #181818;
+  font-family: "Circular-Std-Medium", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+
+  .muted {
+    color: #909090;
+    font-family: "Circular-Std-Book", sans-serif;
+    font-weight: 450;
+  }
+}
+
+.hint-discover__price-symbol {
+  color: #35aff4;
 }

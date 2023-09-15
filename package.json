@@ -1,6 +1,6 @@
 {
-  "name": "wanderlast",
-  "homepage": "https://RomanSRDK.github.io/wanderlast/",
+  "name": "wanderlust",
+  "homepage": "https://RomanSRDK.github.io/wanderlust/",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
@@ -39,6 +39,7 @@
     "last 5 versions"
   ],
   "dependencies": {
+    "@easepick/bundle": "^1.2.1",
     "@tarekraafat/autocomplete.js": "^10.2.7"
   }
 }

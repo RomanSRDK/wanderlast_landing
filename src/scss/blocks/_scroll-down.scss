@@ -1,0 +1,25 @@
+.scroll-down {
+  position: relative;
+  display: inline-block;
+}
+.scroll-down__text {
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  //   animation-iteration-count: infinite;
+}
+.scroll-down__toggle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -44,7 +44,19 @@
   font-weight: 450;
   line-height: 150%; /* 27px */
 }
+
 .discover__picture {
+  position: relative;
 }
-.discover__picture-img {
+
+.discover__picture-hint {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+
+.discover__picture-scroll {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
 }
